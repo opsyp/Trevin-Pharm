@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(243, 184, 184, 0.2);
+}
+
+.topbar {
+  display: flex;
+  height: 50px;
+  color: #f8f8f8;
+  background-color: #6b4099;
+  justify-content: space-between;
+}
+
+.active {
+  margin-right: 20px;
+}
+
+.text-1 {
+  margin-left: 50px;
+}
+
+.text-2 {
+  margin-right: 50px;
+}
+
+.icon-bar {
+  font-size: larger;
+  margin: 15px;
+}
+
+.our-story-container {
+  margin: 5% 10%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  width: 400px;
+  border: 2px solid pink;
+  box-shadow: 4px 4px 5px #888;
+}
+
+.our-story {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+/* .mission-section {
+  display: flex;
+  justify-content: center;
+} */
+
+.mission-vision-contanier {
+  display: flex;
+  justify-content: center;
+  border: 2px solid pink;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px #888;
+  margin: 5% 10%;
+  height: auto;
+}
+
+.mission {
+  font-family: "Montserrat", sans-serif;
+  margin: 50px;
+  height: auto;
+  width: 300px;
+}
+
+.vision {
+  font-family: "Montserrat", sans-serif;
+  margin: 50px;
+  height: auto;
+  width: 300px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.meet-team {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.section-header {
+  font-size: 3rem;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 20px;
+  border: 2px solid pink;
+  box-shadow: 4px 4px 5px #888;
+}
+
+.team-section-container {
+  display: flex;
+  margin: 10%;
+  width: 80%;
+  height: auto;
+  background-color: #f8f8f8;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.both {
+  display: flex;
+  height: auto;
+}
+
+.team-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.team-img {
+  height: 250px;
+  width: 200px;
+  background-image: url(/Images/img1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+}
+
+.team-text {
+  height: auto;
+  width: 250px;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  background-color: black;
+  color: #f8f8f8;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.heading {
+  margin-right: 10px;
+  padding: 5px;
+  height: auto;
+  width: 400px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}

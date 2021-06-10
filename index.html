@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevin</title>
+    <script src="https://kit.fontawesome.com/5580fab114.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="./about.html">About</a>
+        <!-- <a href="#contact">Contact</a> -->
+        <a href="./register.html">Register</a>
+        <div class="login-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Username" name="username">
+                <input type="text" placeholder="Password" name="psw">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+    
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="./Images/img1.jpg" style="width:100%", height="30%">
+            <div class="text">Caption Text</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./Images/img2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./Images/img3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./Images/img4.jpg" style="width:100%">
+            <div class="text">Caption four</div>
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <section id="welcome">
+        <div class="welcome-address-container">
+            <div class="welcome-section">
+                <div class="welcome-img-container">
+                    <div class="welcome-img"></div>
+                </div>
+                    <div class="welcome-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum fuga hic adipisci ratione odit amet ducimus iste repudiandae cumque velit doloremque laudantium molestiae sit modi autem quibusdam tempora laboriosam iusto a, harum ut magni culpa! Numquam culpa quae eligendi voluptatum, ullam assumenda harum officiis illo,
+                        facilis amet optio. Facilis officiis quo corporis iure, ipsa est! Iure od reprehenderit dolor et sunt adullam, saepe dolorem fugiat perspiciatis amet non dolorum autem qui hic architecto, deserunt ut quaerat?
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CATEGORIES SECTION -->
+    <!-- <section id="categories">
+        <div class="sh-category">Shop by category</div>
+        <div class="category-container">
+            <div class="category-1"><a href="http://">Beauty ></a></div>
+            <div class="category-2"><a href="http://">Health & Medicine ></a></div>
+            <div class="category-3"><a href="http://">Vitamins ></a></div>
+            <div class="category-4"><a href="http://">Personal Care ></a></div>
+            <div class="category-5"><a href="http://">Baby & Child ></a></div>
+        </div>
+    </section> -->
+    
+
+    <!-- END OF CATEGORIES SECTION -->
+
+    <!-- LOCATIONS SECTION -->
+    <section id="locations">
+        <div class="location-container">
+            <div class="location-header">Locations</div>
+            <div class="locations">
+                <div class="location-item">
+                    <div class="location-1">
+                        <div class="text-container">
+                            <h2 class="name">Mokola Office</h2>
+                            <div class="content">
+                                <p>
+                                    Trevin Pharmacy Ltd <br>
+                                    Address: 26 Oyo Rd, 234082, Ibadan, Nigeria <br>
+                                    Phone: +234 806 078 8713.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-2">
+                        <div class="text-container">
+                            <h2 class="name">Watershed Office</h2>
+                            <div class="content">
+                                <p>
+                                Trevin Pharmacy Ltd <br>
+                                Address: 26 Oyo Rd, 234082, Ibadan, Nigeria <br>
+                                Phone: +234 806 078 8713
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-item">
+                    <div class="location-3">
+                        <div class="text-container">
+                            <h2 class="name">Jericho Office</h2>
+                            <div class="content">
+                                <p>
+                                    Trevin Pharmacy Ltd <br>
+                                    Address: 26 Oyo Rd, 234082, Ibadan, Nigeria <br>
+                                    Phone: +234 806 078 8713
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF LOCATIONS SECTION -->
+    
+    <!-- Social Icons -->
+    <section id="contactme">
+        <div class="social-icons">
+            <div class="fb">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="ig">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="tw">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    
+  
+    <!-- Footer Section -->
+    <Footer id="footer">
+        <div class="footer-container">
+            <div class="heading">
+                <h4 class="heading-1">Trevin Pharmacy</h4>
+                <hr class="half-space">
+                <p class="half-space">"We are commited to our purpose and function of providing care for all custumers
+                    through our well trained medical representatives."</p><br>
+                <br>
+                <p>Our Offices are spread all over the 36 states of Nigeria and Abuja</p>
+            </div>
+            <div class="heading">
+                <h4 class="heading-1">Newsletter</h4>
+                <hr class="half-space">
+                <p class="half-space">"We are commited to our purpose and function of providing care for all custumers
+                    through our
+                    well trained medical representatives."</p>
+                <p>Our Offices are spread all over the 36 states of Nigeria and Abuja</p>
+            </div>
+            <div class="heading">
+                <h4 class="heading-1">Get in Touch</h4>
+                <hr class="half-space">
+                <p class="address"><i class="fas fa-map-marker-alt>"></i>
+                    Beside Golden Age Plaza, <br>
+                    Magazine Road, Jericho, Ibadan. <br>
+                    Landmark: ANCE Building
+                </p>
+                <p class="address">
+                    0802 702 4770
+                </p>
+                <p class="address">
+                    trevinpharmacy@gmail.com
+                </p>
+            </div>
+            <div class="heading">
+                <h4 class="heading-1">Get in Touch</h4>
+                <hr class="half-space">
+                <p class="address"><i class="fas fa-map-marker-alt>"></i>
+                    22, Oyo Road <br>
+                    Opposite Goshen Events Center, <br>
+                    Mokola, Ibadan
+                </p>
+                <p class="address">
+                    0803 854 4770
+                </p>
+                <p class="address">
+                    trevinpharmacy@gmail.com
+                </p>
+            </div>
+            <div class="heading">
+                <h4 class="heading-1">Get in Touch</h4>
+                <hr class="half-space">
+                <p class="address"><i class="fas fa-map-marker-alt>"></i>
+                    245 Lagos Road, <br>
+                    Watershed Center, <br>
+                    Agodi, Ibadan
+                </p>
+                <p class="address">
+                    0802 854 7754
+                </p>
+                <p class="address">
+                    trevinpharmacy@gmail.com
+                </p>
+            </div>
+        </div>
+    </Footer>
+    
+    <!-- Copyright -->
+    <section id="copyright">
+        <div class="copyright">
+            <p class="copy">&copy; Royalhand Consults 2021</p>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
