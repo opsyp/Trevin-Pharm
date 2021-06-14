@@ -8,6 +8,51 @@ body {
   background-color: rgba(243, 184, 184, 0.2);
 }
 
+.topbar {
+  display: flex;
+  height: 50px;
+  color: #f8f8f8;
+  background-color: #6b4099;
+  justify-content: space-between;
+}
+
+.text-1 {
+  margin-left: 50px;
+}
+
+.text-2 {
+  margin-right: 50px;
+}
+/* NAVBAR */
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li a {
+  display: block;
+  /* color: white; */
+  text-decoration: none;
+  font-size: 1rem;
+}
+.navbar-container {
+  display: flex;
+}
+
+.nav-image-container {
+  width: 100px;
+}
+
+.links {
+  align-content: space-between;
+}
+
 /* Style the navbar */
 .topnav {
   overflow: hidden;
