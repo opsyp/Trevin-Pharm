@@ -24,33 +24,32 @@ body {
   margin-right: 50px;
 }
 /* NAVBAR */
+
+.navbar-container {
+  display: flex;
+  width: 100%;
+}
+
+.nav-nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
 a {
   text-decoration: none;
 }
 
+li {
+  display: inline;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
 ul {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
-  list-style: none;
-}
-
-li a {
-  display: block;
-  /* color: white; */
-  text-decoration: none;
-  font-size: 1rem;
-}
-.navbar-container {
-  display: flex;
-}
-
-.nav-image-container {
-  width: 100px;
-}
-
-.links {
-  align-content: space-between;
 }
 
 /* Style the navbar */
